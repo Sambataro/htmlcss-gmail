@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
+  background-size: cover;
+}
+
+.contenitore{
+  margin: 50px;
+  color: white;
+}
+
+/* logo e titolo pagina */
+#logo-header{
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+}
+#logoheader-name{
+  font-size: 30px;
+}
+/*/ logo e titolo pagina */
+
+ /* barra ricerca e notifiche */
+#unread-counter{
+  border-radius: 50%;
+  background:orange;
+  padding:5px;
+}
+h2{
+  font-size: 30px;
+}
+/* /barra ricerca e notifiche */
+
+/* libreria email */
+main{
+  color: black;
+}
+.row{
+  border: 1px solid black;
+}
+.read{
+  background-color: lightgrey;
+}
+.unread{
+  background-color: white;
+}
+.row-left, .row-right{
+  display: inline-block;
+}
+
+/* /libreria email */
+
+/* copyright */
+footer{
+  text-align: center;
+  font-size: 25px;
+}
+#copy{
+  font-style: italic;
+  font-size: 15px;
+}
+/*/ copyright */
